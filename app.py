@@ -7,9 +7,7 @@ st.title("🌦️ Weather Prediction System")
 
 temp = st.slider(
     "Temperature",
-    -20.0,
-    50.0,
-    25.0
+    -20.0,50.0,25.0
 )
 
 pressure = st.number_input(
@@ -40,7 +38,7 @@ cloudiness = st.slider(
 
 country = st.text_input(
     "Country",
-    "BD"
+    "Unknown"
 )
 
 input_data = pd.DataFrame([{
