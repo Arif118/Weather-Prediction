@@ -30,4 +30,10 @@ The model uses following attributes:
 Target variable:
  ⚙️Weather Condition
 
+#Model Used
+Random Forest was selected because: 
+It handles nonlinear relationships effectively
+Works well on mixed feature types
+Reduces overfitting using ensemble learning
+
 
