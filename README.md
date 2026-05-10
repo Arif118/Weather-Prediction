@@ -4,36 +4,43 @@ A Machine Learning-based weather prediction system built using Python, Scikit-le
 
 ## Project Overview
 The system:
-  🎯 Collects live weather data
-  🎯 Performs preprocessing
-  🎯 Uses a Pipeline
-  🎯 Trains a RandomForestClassifier
-  🎯 Deploys it through Streamlit
+  * Collects live weather data
+  * Performs preprocessing
+  * Uses a Pipeline
+  * Trains a RandomForestClassifier
+  * Deploys it through Streamlit
 
 ## Tool Used
-   Python
-   Pandas
-   NumPy
-   Scikit-learn
-   Streamlit
-   Joblib
-   OpenWeatherMap API
+  * Python
+  * Pandas
+  * NumPy
+  * Scikit-learn
+  * Streamlit
+  * Joblib
+  * OpenWeatherMap API
 
 ## Features Used
 The model uses following attributes:
- ⚙️Temperature
- ⚙️Pressure
- ⚙️Humidity
- ⚙️Wind Speed
- ⚙️Cloudiness
- ⚙️Country
+ * Temperature
+ * Pressure
+ * Humidity
+ * Wind Speed
+ * Cloudiness
+ * Country
 Target variable:
- ⚙️Weather Condition
+ * Weather Condition
 
 ## Model Used
 Random Forest was selected because: 
-It handles nonlinear relationships effectively
-Works well on mixed feature types
-Reduces overfitting using ensemble learning
+* It handles nonlinear relationships effectively
+* Works well on mixed feature types
+* Reduces overfitting using ensemble learning
+
+## Streamlit Application
+The project includes an interactive Streamlit GUI where users can Input weather-related parameters, Predict weather conditions instantly, Interact with the trained model in real time.
 
 
+## Author
+Md. Arif Hasnat, 
+1st year Undergraduate Student, Bioinformatics Engineering,
+Bangladesh Agricultural University
