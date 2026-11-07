@@ -2,7 +2,10 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-model = joblib.load('weather_model.pkl')
+from pathlib import Path
+
+MODEL_PATH = Path(__file__).parent / "weather_model.pkl"
+model = joblib.load(MODEL_PATH)
 st.title("🌦️ Weather Prediction System")
 
 temp = st.slider(
