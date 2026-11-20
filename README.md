@@ -39,6 +39,8 @@ Random Forest was selected because:
 ## Streamlit Application
 The project includes an interactive Streamlit GUI where users can Input weather-related parameters, Predict weather conditions instantly, Interact with the trained model in real time.
 
+## Deployment
+Deployed on streamlit Cloud space. You can test it by visiting arif-weather.streamlit.app 
 
 ## Author
 Md. Arif Hasnat, 
